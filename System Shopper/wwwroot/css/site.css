@@ -1,0 +1,39 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+* {
+    color: #1D2F6F;
+    border-color: #1D2F6F;
+}
+
+label {
+    font-weight: bold;
+}
+
+#SystemListLabel {
+    position: fixed;
+    top: 100px;
+    right: 0px;
+    width: 100px;
+    height: 30px;
+}
+
+#ListTrigger:hover {
+    cursor: pointer;
+}
